@@ -39,11 +39,11 @@ public class java_challenge11_6 extends HttpServlet {
             out.println("<head>");            
             out.println("</head>");
             out.println("<body>");
-            ArrayList<String> al = fujimoto("");
+            ArrayList<String> al = fujimoto("r-fujimoto");
            
             
             for (int i=0;i<al.size();i++) {
-                if (i<8) {
+                if (i<1) 
                     out.println(al.get(i));
                 }
             }
