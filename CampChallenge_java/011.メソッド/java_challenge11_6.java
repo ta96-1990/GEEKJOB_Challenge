@@ -43,7 +43,7 @@ public class java_challenge11_6 extends HttpServlet {
            
             
             for (int i=0;i<al.size();i++) {
-                if (i<1) 
+                if (i<1) {
                     out.println(al.get(i));
                 }
             }
