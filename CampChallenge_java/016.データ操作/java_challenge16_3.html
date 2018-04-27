@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="./test1.jsp" method="post">
+            <p>
+                <strong>名前</strong>: <input type="text" name="userName" size="30">
+            </p>
+            <p>
+                <strong>性別</strong>: 男性<input type="radio" name="gender" value="男性" >女性<input type="radio" name="gender" value="女性">
+            </p>
+            <p>
+                <strong>メールアドレス</strong>: <input type="text" name="mailAddress" size="40">    
+            </p>
+            <p>
+                <strong>血液型</strong>: <select name="blood">
+                <option name ="Ａ型">Ａ型</option>
+                <option name ="Ｂ型">Ｂ型</option>
+                <option name ="ＡＢ型">ＡＢ型</option>
+                <option name ="Ｏ型">Ｏ型</option>
+            </select>
+            </p>
+            <p>
+                <strong>ご感想</strong>:<br>
+                <textarea name="kanso" rows="4" cols="40"></textarea>
+            </p>
+            <p>
+                <input type="submit" name="btnSubmit" value="決定"><input type="reset" name ="btnReset" value="リセット">
+            </p>
+        </form>
+        <a href="https://camp.geekjob.jp/"><font size="+1" color="red"><strong>お問い合わせはこちら</strong></font></a>
+    </body>
+</html>
